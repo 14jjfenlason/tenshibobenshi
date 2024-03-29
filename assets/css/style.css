@@ -1,0 +1,171 @@
+*{
+  font-family: Georgia, Times, serif;
+ 
+  color:rgba(240, 248, 255, 0.808)
+}
+header{
+    background-color: #00b140;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+#borderBox{
+  width: 100vw;
+  height: 20px;
+  background-color: black;
+  
+}
+body{
+  background-image: linear-gradient(
+    #00b140 0%,
+    #000000 100%
+  );
+}
+#subtitle{
+    line-height: 50px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+} 
+
+#ff1link:hover, #ff2link:hover, #ff3link:hover{
+  background-color: black;
+  border: 1px solid;
+}
+
+.pics{
+  display:inline-flex;
+  flex-wrap: wrap;
+  flex: 0 0 50%;
+  margin-top: 30px;
+  height: 589px;
+  width: 435px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 18px rgba(9, 156, 34, 0.692);
+}
+#picStretch{
+  margin-right: 55px;
+  display:inline-flex;
+  flex-wrap: wrap;
+  flex: 0 0 50%;
+  margin-top: 30px;
+  height: 589px;
+  width: 435px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 18px rgba(9, 156, 34, 0.692);
+}
+#picStick{
+  border-top-right-radius: 45px;
+  border-bottom-right-radius:45px;
+  margin-right: 100px;
+  box-shadow: 8px 8px 18px rgba(9, 156, 34, 0.692);
+}
+
+#ff1group, #ff2group, #ff3group{
+  position: relative;
+  display: inline-flex;
+}
+#ff1{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-64%, -500%); /* Center the text */
+  background-color: rgba(13, 94, 13, 0.719); /* Add a background color with opacity */
+  padding: 10px;
+  width: 367px;
+}
+#ff2{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-57%, -470%); /* Center the text */
+  background-color: rgba(13, 94, 13, 0.719); /* Add a background color with opacity */
+  padding: 10px;
+  width: 367px;
+}
+#pic5{
+  height:589px;
+  width:820px;
+  border-radius: 40px;
+  box-shadow: 8px 8px 18px rgba(9, 156, 34, 0.692);
+  max-width: 100%;
+}
+#ff3{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -460%); /* Center the text */
+  background-color: rgba(13, 94, 13, 0.719); /* Add a background color with opacity */
+  padding: 10px;
+  width: 397px;
+}
+#pictext1:hover::after {
+  content: "Everything that he sees belongs to Tenshi";
+  position: absolute;
+  left: 88px;
+  bottom: 140px;
+  border: 1px #aaaaaa solid;
+  background-color: #237714;
+  padding: 12px;
+  color: #fff;
+  transition: visibility 0.5s;
+}
+.ttgroup{
+    position: relative;
+    display: inline-block;
+}
+.tttext{
+  visibility: hidden;
+  border: 1px #aaaaaa solid;
+  background-color: #237714;
+  transition: visibility 0.5s;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  border-radius: 6px;
+  padding: 10px;
+  width: 120px;
+}
+.tttext2{
+    bottom: 5%;
+    left: 30%;
+}
+.tttext3{
+    top: 13%;
+    right:15%;
+}
+.tttext4{
+  top: 6%;
+  right: 30%;
+}
+.tttext5{
+  top: 6%;
+  left: 4%;
+}
+.tttext6{
+  top:10%;
+  left:31%;
+}
+.tttext8{
+  top:14%;
+  left:28%;
+}
+.ttgroup2:hover .tttext2{
+ visibility: visible;
+}
+.ttgroup3:hover .tttext3{
+  visibility: visible;
+}
+.ttgroup4:hover .tttext4{
+  visibility: visible;
+}
+.ttgroup5:hover .tttext5{
+  visibility: visible;
+}
+.ttgroup6:hover .tttext6{
+  visibility:visible;
+}
+.ttgroup8:hover .tttext8{
+  visibility: visible;
+}
